@@ -1,0 +1,13 @@
+div {
+    align-items: center;
+}
+
+.container-card-creater {
+    width: 1121px;
+    height: 789px;
+    margin-top: 60px;
+    margin-left: 159px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, 0.08);
+    background: #F6F6F6;
+}
