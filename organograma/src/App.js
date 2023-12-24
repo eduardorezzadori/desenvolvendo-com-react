@@ -1,11 +1,11 @@
-import Banner from './components/Banner/Banner'
-import CriarCard from './components/CriarCard';
+import Banner from './components/Banner/Banner';
+import Formulario from './components/Formulario';
 
 function App() {
   return (
     <div className="App">
       <Banner />
-      <CriarCard />
+      <Formulario />
     </div>
   );
 }
