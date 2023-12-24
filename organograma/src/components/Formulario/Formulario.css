@@ -15,3 +15,18 @@ form h2 {
     box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, 0.08);
     background: #F6F6F6;
 }
+
+form button {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+    border-radius: 10px;
+    background: #6278F7;
+    margin: 15px 45px auto auto;
+    width: 167px;
+    height: 80px;
+}

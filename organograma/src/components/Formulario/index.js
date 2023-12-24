@@ -1,4 +1,3 @@
-import Button1 from "../Button1"
 import CampoTexto from "../CampoTexto"
 import "./Formulario.css"
 
@@ -11,7 +10,7 @@ const Formulario = () => {
                 <CampoTexto label="Cargo" msg="Informe seu nome..." />
                 <CampoTexto label="Imagem" msg="Informe o endereço da imagem..." />
                 <CampoTexto label="Time" msg="Informe seu time..." />
-                <Button1 />
+                <button>Criar card</button>
             </form>
         </section>
     )
