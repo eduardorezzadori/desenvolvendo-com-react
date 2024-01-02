@@ -7,4 +7,10 @@ button {
     background: #6278F7;
     margin-bottom: 32px;
     margin-left: 96px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #95FFD4;
 }
