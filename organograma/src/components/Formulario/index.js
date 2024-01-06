@@ -9,12 +9,18 @@ const Formulario = () => {
     const [nome, setNome] = useState('')
     const [cargo, setCargo] = useState('')
     const [imagem, setImagem] = useState('')
+    const [time, setTime] = useState('')
+
+    const Submit = (event) => {
+        event.preventDefault()
+        console.log(`Form submetido - ${nome} ${cargo} ${imagem} ${time}`);
+    }
 
     const times = ['PeD', 'MeP']
 
     return (
         <section>
-            <form className="container-card-creater">
+            <form className="container-card-creater" onSubmit={Submit}>
                 <h2>Preencha os dados para criar o card do colaborador.</h2>
                 <CampoTexto
                     label="Nome"
@@ -37,6 +43,8 @@ const Formulario = () => {
                 <ListaSuspensa
                     label="Time"
                     times={times}
+                    valor={time}
+                    aoAlterado = {evento => setTime(evento)}
                 />
                 <Botao>
                     Criar card
