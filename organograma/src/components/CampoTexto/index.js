@@ -9,6 +9,7 @@ const CampoTexto = (props) => {
                 value={props.valor}
                 onChange={evento => props.aoAlterado(evento.target.value)}
                 placeholder={props.msg}
+                required={true}
             ></input>
         </div>
     )
