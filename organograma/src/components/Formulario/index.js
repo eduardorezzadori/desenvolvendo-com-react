@@ -4,7 +4,7 @@ import CampoTexto from "../CampoTexto"
 import ListaSuspensa from "../ListaSuspensa"
 import "./Formulario.css"
 
-const Formulario = () => {
+const Formulario = (props) => {
 
     const [nome, setNome] = useState('')
     const [cargo, setCargo] = useState('')
@@ -13,7 +13,13 @@ const Formulario = () => {
 
     const Submit = (event) => {
         event.preventDefault()
-        console.log(`Form submetido - ${nome} ${cargo} ${imagem} ${time}`);
+        console.log(`Form submetido - ${nome} ${cargo} ${imagem} ${time}`)
+        props.submit({
+            nome,
+            cargo,
+            imagem,
+            time
+        })
     }
 
     const times = ['PeD', 'MeP']
