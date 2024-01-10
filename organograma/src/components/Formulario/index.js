@@ -23,8 +23,6 @@ const Formulario = (props) => {
         })
     }
 
-    const times = ['PeD', 'MeP']
-
     return (
         <section>
             <form className="container-card-creater" onSubmit={Submit}>
@@ -49,7 +47,7 @@ const Formulario = (props) => {
                 />
                 <ListaSuspensa
                     label="Time"
-                    times={times}
+                    times={props.times}
                     valor={time}
                     aoAlterado = {evento => setTime(evento)}
                 />

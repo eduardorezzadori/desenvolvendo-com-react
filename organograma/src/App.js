@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Banner from './components/Banner/Banner';
 import Formulario from './components/Formulario';
 import Equipe from './components/Equipes';
+import { times } from "./general/Times.js";
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <Formulario submit={onSubmit}/>
+      <Formulario submit={onSubmit} times={times} />
       <Equipe />
     </div>
   );
