@@ -12,8 +12,9 @@ const Formulario = (props) => {
     const [time, setTime] = useState('')
 
     const Submit = (event) => {
+        
         event.preventDefault()
-        console.log(`Form submetido - ${nome} ${cargo} ${imagem} ${time}`)
+
         props.submit({
             nome,
             cargo,
