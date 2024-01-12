@@ -1,8 +1,12 @@
 import "./Equipe.css"
 
-const Equipe = () => {
+const Equipe = (props) => {
     return (
-        <section>olarrrrr</section>
+        <section className="squad-container">
+            <header>
+                <h2>MeP</h2>
+            </header>
+        </section>
     )
 }
 

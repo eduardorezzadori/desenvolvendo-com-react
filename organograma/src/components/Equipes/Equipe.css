@@ -1,0 +1,15 @@
+.squad-container {
+    background-color: #D9F7E9;
+    width: 100%;
+    height: 438px;
+}
+
+.squad-container header {
+    text-align: center;
+}
+
+.squad-container h2 {
+    padding: 34px 0 0 0;
+    border-bottom: #57C278 4px solid;
+    display: inline-block;
+}

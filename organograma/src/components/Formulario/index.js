@@ -24,7 +24,7 @@ const Formulario = (props) => {
     }
 
     return (
-        <section>
+        <section className="card-creater">
             <form className="container-card-creater" onSubmit={Submit}>
                 <h2>Preencha os dados para criar o card do colaborador.</h2>
                 <CampoTexto
