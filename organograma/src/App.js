@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <Banner />
       <Formulario submit={onSubmit} times={times} />
-      <Equipe />
+      {times.map(time => <Equipe key={time.name} label={time.name} textColor={time.textColor} background={time.bgColor}/>)}
     </div>
   );
 }

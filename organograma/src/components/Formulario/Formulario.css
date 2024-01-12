@@ -1,5 +1,6 @@
 form {
     align-items: center;
+    margin-bottom: 64px;
 }
 
 form h2 {
@@ -14,10 +15,9 @@ form h2 {
 }
 
 .container-card-creater {
-    width: 1121px;
+    max-width: 1121px;
     height: 789px;
     margin-top: 60px;
-    margin-left: 159px;
     border-radius: 20px;
     box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, 0.08);
     background: #F6F6F6;
@@ -40,4 +40,11 @@ form button {
 .card-creater section {
     padding: 0px auto;
     margin: 0px 96px;
+}
+
+.card-creater {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
